@@ -4,7 +4,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ###Link
 You can see the finished project at:
-https://regal-tiramisu-0e2998.netlify.app/
+https://rreyes2404-productviewcard.netlify.app/
 
 ###Build With
 - HTML5

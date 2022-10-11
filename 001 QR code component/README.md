@@ -4,7 +4,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ###Link
 You can see the finished project at:
-https://sunny-druid-08edb2.netlify.app/
+https://rreyes2404-qrcode.netlify.app/
 
 ###Build With
 - HTML5
