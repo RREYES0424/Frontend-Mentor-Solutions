@@ -110,4 +110,13 @@ button:hover{
     .description{
         height: 350px;
     }
+
+    button{
+        width: 260px;
+    }
+    .addCart{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
