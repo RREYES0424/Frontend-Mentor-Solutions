@@ -36,20 +36,21 @@ main{
 .description{
     display: flex;
     flex-direction: column;
-    padding: 0px 40px;
+    padding: 0px 30px;
     justify-content: space-evenly;
 }
 
 .category, .descriptionProduct, .price{
     color: hsl(228, 12%, 48%);
     font-size: 14px;
+    line-height: 22px;
 }
 
 .titleProduct{
     font-family: 'Fraunces', serif;
     color: hsl(212, 21%, 14%);
     font-size: 30px;
-    line-height: 32px;
+    line-height: 31px;
 }
 .prices{
     display: flex;
@@ -70,8 +71,8 @@ button{
     justify-content: center;
     align-items: center;
     padding-left: 25px;
-    width: 220px;
-    height: 50px;
+    width: 250px;
+    height: 47px;
     border: none;
     border-radius: 10px;
     background-color: hsl(158, 36%, 37%);
@@ -111,7 +112,7 @@ button:hover{
     }
 
     button{
-        width: 260px;
+        width: 275px;
     }
     .addCart{
         display: flex;
