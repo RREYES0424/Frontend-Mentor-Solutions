@@ -13,3 +13,4 @@ https://sunny-druid-08edb2.netlify.app/
 
 ##Author
 Ricardo Reyes Flores
+Twitter: https://twitter.com/rreyes2404
