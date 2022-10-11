@@ -50,7 +50,7 @@ main{
     font-family: 'Fraunces', serif;
     color: hsl(212, 21%, 14%);
     font-size: 30px;
-    line-height: 32px;
+    line-height: 31px;
 }
 .prices{
     display: flex;
@@ -112,7 +112,7 @@ button:hover{
     }
 
     button{
-        width: 260px;
+        width: 275px;
     }
     .addCart{
         display: flex;
