@@ -36,13 +36,14 @@ main{
 .description{
     display: flex;
     flex-direction: column;
-    padding: 0px 40px;
+    padding: 0px 30px;
     justify-content: space-evenly;
 }
 
 .category, .descriptionProduct, .price{
     color: hsl(228, 12%, 48%);
     font-size: 14px;
+    line-height: 22px;
 }
 
 .titleProduct{
@@ -70,8 +71,8 @@ button{
     justify-content: center;
     align-items: center;
     padding-left: 25px;
-    width: 220px;
-    height: 50px;
+    width: 250px;
+    height: 47px;
     border: none;
     border-radius: 10px;
     background-color: hsl(158, 36%, 37%);
