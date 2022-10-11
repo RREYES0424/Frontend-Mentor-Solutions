@@ -11,8 +11,7 @@ html{
     background-color: hsl(30, 38%, 92%);
 }
 main{
-    width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
