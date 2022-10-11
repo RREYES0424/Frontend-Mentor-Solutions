@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Fraunces', serif; */
+}
+html,body{
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    background-color: hsl(30, 38%, 92%);
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: hsl(0, 0%, 100%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 15px;
+    width: 600px;
+}
+.image .imgPhone{
+    display: none;
+}
+.image .imgDesktop{
+    display: block;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 40px;
+    justify-content: space-evenly;
+}
+
+.category, .descriptionProduct, .price{
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+}
+
+.titleProduct{
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 21%, 14%);
+    font-size: 30px;
+    line-height: 32px;
+}
+.prices{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.offer{
+    font-family: 'Fraunces', serif;
+    color:hsl(158, 36%, 37%);
+    font-size: 30px;
+}
+.price{
+    text-decoration: line-through;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25px;
+    width: 220px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: hsl(158, 36%, 37%);
+    background-image: url("../img/icon-cart.svg");
+    background-repeat: no-repeat;
+    background-position: 55px;
+    background-size: 18px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+
+button:hover{
+    background-color: hsl(158, 34%, 26%);
+    cursor: pointer;
+}
+
+@media (max-width: 650px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+    .image .imgDesktop{
+        display: none;
+    }
+    .image .imgPhone{
+        display: block;
+    }
+    .image img{
+        width: 100%;
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    .description{
+        height: 350px;
+    }
+}
